@@ -57,12 +57,13 @@ header {
     left: 0;
     background: black;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
 #logo {
-    width: 75px;
+    width: 50px;
     float: left;
-    margin: 15px 0px 0px 30px;
+    margin: 8px 0px 0px 30px;
 }
 
 #logo:hover {
@@ -94,7 +95,7 @@ header nav ul li a {
 /* Home ***************************************************/
 
 #home {
-    background: url(img/banner.gif);
+    background: url(img/banner.jpg);
     background-position: center, center;
     background-size: cover;
     background-attachment: fixed;
@@ -112,7 +113,7 @@ header nav ul li a {
 
 #home img {
     width: 32px;
-    margin-top: 1100px;
+    margin-top: 75vh;
     opacity: 0.7;
 }
 
