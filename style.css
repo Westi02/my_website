@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 /* Body ***************************************************/
 
 html, body {
@@ -19,10 +24,10 @@ li {
     list-style-type: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    color: black;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -33,9 +38,9 @@ h3 {
 }
 
 hr {
-    width: 30px;
-    height: 3px;
-    background: #494949;
+    width: 50px;
+    height: 4px;
+    background: #757575;
     border: 0px;
     margin: 0 auto 40px auto;
 }
@@ -76,7 +81,7 @@ header {
 
 header nav {
     float: right;
-    margin: 10px 50px 0px 0px;
+    margin: 25px 50px 0px 0px;
 }
 
 header nav ul li {
@@ -102,19 +107,15 @@ header nav ul li a {
 }
 
 #home h1 {
-    margin: 240px auto 0px auto;
-    font-size: 110px;
-}
-
-#home h2 {
-    margin: 0px auto 0px auto;
-    font-size: 25px;
+    margin: 40vh auto 0px auto;
+    font-size: 75px;
+    color: #f0f0f0;
 }
 
 #home img {
     width: 32px;
-    margin-top: 75vh;
-    opacity: 0.7;
+    margin-top: 40vh;
+    opacity: 0.75;
 }
 
 #home img:hover {
@@ -122,6 +123,10 @@ header nav ul li a {
 }
 
 /* About ***************************************************/
+
+#about{
+    background-color: black;
+}
 
 #about img {
     width: 240px;
@@ -135,18 +140,19 @@ header nav ul li a {
 }
 
 #about h4 {
+    margin-top: 10px;
     font-size: 25px;
 }
 
 #about p {
-    width: 700px;
+    width: 800px;
     margin: 0 auto 0 auto;
 }
 
-/* News ***************************************************/
+/* projects ***************************************************/
 
-#news {
-    background: #f0f0f0;
+#projects {
+    background: rgb(10, 10, 10);
 }
 
 #articles {
@@ -154,17 +160,17 @@ header nav ul li a {
     margin: 0 auto 0 auto;
 }
 
-#articles ul {
+#projects ul {
     padding: 0;
 }
 
-#articles ul li {
+#projects ul li {
     width: 33.3%;
     float: left;
     margin-bottom: 20px;
 }
 
-#articles ul li:hover {
+#projects ul li:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -172,31 +178,29 @@ header nav ul li a {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-#articles img {
+#projects img {
     width: 280px;
     height: 170px;
     border-radius: 5px;
 }
 
-/* Contact ***************************************************/
+/* social ***************************************************/
 
-
-#socialmedia {
-    width: 300px;
-    margin: 0 auto 0 auto;
+#social {
+    background: black;
 }
 
-#socialmedia ul {
+#social ul {
     padding: 0;
 }
 
-#socialmedia ul li {
+#social ul li {
     width: 25%;
     float: left;
     margin-bottom: 20px;
 }
 
-#socialmedia img:hover {
+#social img:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -204,20 +208,14 @@ header nav ul li a {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-#socialmedia img {
+#social img {
     width: 60px;
     height: 60px;
     border-radius: 5px;
 }
 
-/* Impressum ***************************************************/
-
-#impressum {
-    background: #f0f0f0;
-}
-
-#impressum p {
-    width: 700px;
+#socialmedia{
+    width: 300px;
     margin: 0 auto 0 auto;
 }
 
