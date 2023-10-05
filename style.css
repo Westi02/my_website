@@ -211,13 +211,13 @@ header nav ul li a {
 #linkedIn_icon {
     width: 70.5px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 #github_icon {
     width: 60px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 #socialmedia{
