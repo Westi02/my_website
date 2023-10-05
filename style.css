@@ -214,6 +214,12 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+#github_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
 #social img {
     width: 60px;
     height: 60px;
