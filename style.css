@@ -208,14 +208,14 @@ header nav ul li a {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-#social img {
-    width: 60px;
+#linkedIn_icon {
+    width: 70.5px;
     height: 60px;
     border-radius: 5px;
 }
 
-#linkedIn_icon {
-    width: 70.5px;
+#social img {
+    width: 60px;
     height: 60px;
     border-radius: 5px;
 }
