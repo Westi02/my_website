@@ -24,7 +24,7 @@ li {
     list-style-type: none;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, h6, p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: white;
@@ -147,12 +147,21 @@ header nav ul li a {
 #about p {
     width: 800px;
     margin: 0 auto 0 auto;
+    line-height: 150%;
 }
 
 /* Resume ***************************************************/
 
 #resume{
     background-color: black;
+}
+
+#resume ul li {
+    padding: 10px;
+}
+
+#resume ul {
+    padding-bottom: 20px;
 }
 
 /* projects ***************************************************/
@@ -173,7 +182,7 @@ header nav ul li a {
 #projects ul li {
     width: 33.3%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #projects ul li:hover {
@@ -185,9 +194,10 @@ header nav ul li a {
 }
 
 #projects img {
-    width: 280px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
+    padding-bottom: 10px;
 }
 
 /* social ***************************************************/
@@ -201,7 +211,7 @@ header nav ul li a {
 }
 
 #social ul li {
-    width: 25%;
+    width: 33.3%;
     float: left;
     margin-bottom: 20px;
 }
@@ -227,10 +237,10 @@ header nav ul li a {
 }
 
 #mail_icon {
-    width: 60px;
-    height: 45px;
+    width: 70px;
+    height: 52px;
     border-radius: 5px;
-    padding-top: 7.5px
+    padding-top: 5px;
 }
 
 #socialmedia{
