@@ -1,193 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Florian Westphal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section>
+      <h1>Hello, I'm Florian Westphal</h1>
+    </section>
 
-    <head>
-        <title>Florian Westphal</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta name="robots" content="noindex">
-    </head>
+    <section>
+      <h2>About Me</h2>
+      <p>I am a German software developer with experience in both frontend and backend technologies. Currently, I work at Dräger Safety in Lübeck, focusing on software solutions in safety technology. In my free time, I am passionate about iOS app development and working on small microelectronics projects.</p>
+    </section>
 
-    <body>
-        <!-------------Header-------------------------------------->
-        <header>
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <div class="project-details">
+            <h3>CookBooq</h3>
+            <p>iOS app that allows users to save and organize their favorite recipes.</p>
+            <a href="" target="_blank">Download Now</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-details">
+            <h3>ShortcutService</h3>
+            <p>Small tool with which you can use predefined shortcuts to start other programs</p>
+            <a href="https://github.com/Westi02/ShortcutService" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div id="logo">
-                <a href="#">
-                    <img src="img/logo.png" alt="logo">
-                </a>
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#social">Social & Contact</a></li>                    
-                </ul>
-            </nav>
-
-        </header>
-        
-        <!-------------Home-------------------------------------->
-
-        <section id="home">
-            <hr>
-            <h1>Welcome to my Website</h1>
-            <br>
-            <h2>Get to know me and my projects</h2>
-            <a href="#about">
-                <img src="img/arrow.png" alt="Pfeil">
-            </a>
-        </section>
-
-        <!-------------About-------------------------------------->
-
-        <section id="about">
-            <h3>About Me</h3>
-            <hr>
-            <img src="img/logo.png" alt="Bild">
-            <h4>Florian Westphal</h4>
-            <br>
-            <br>
-            <p> I am a German software developer from Lübeck. <br>
-                I have been developing my own little games and programs since I was young. <br>
-                I was born on September 1, 2002. I haven't been programming since then, <br>
-                but my father introduced me to the passion for technology at a very early age. <br>
-            </p>
-            <br>
-            <p>
-                After graduating from school, I did an apprenticeship at Dräger in Lübeck. <br>
-                I am currently involved in the development of small tools in my private life. <br>
-                Tinkering on my own micro-electronics projects is also one of my hobbies. <br>
-            </p>
-        </section>
-
-        <!-------------Resume-------------------------------------->
-
-        <section id="resume">
-            <h3>Resume</h3>
-            <hr>
-            
-            <ul>
-                <h4>Education</h4>
-                <hr>
-                <li>
-                    <h5>Software Developer Trainee - Drägerwerk AG & Co. KGaA</h5>
-                    <h6>2021 - 2024</h6>
-                </li>
-                <li>
-                    <h5>Abitur - Gymnasiales Schulzentrum „Felix Stillfried“</h5>
-                    <h6>2019 - 2021</h6>
-                </li>
-                <li>
-                    <h5>Middle / High School - Gymnasiales Schulzentrum „Felix Stillfried“</h5>
-                    <h6>2013 - 2019</h6>
-                </li>
-                <li>
-                    <h5>Elementary School - Dr. Otto Steinfatt</h5>
-                    <h6>2009 - 2013</h6>
-                </li>
-            </ul>
-            
-            <ul>
-                <h4>Experience</h4>
-                <hr>
-                 <li>
-                    <h5>Software Developer FGDS - Dräger Safety AG & Co. KGaA</h5>
-                    <h6>2024 - today</h6>
-                </li>
-                <li>
-                    <h5>Software Developer Trainee - Drägerwerk AG & Co. KGaA</h5>
-                    <h6>2021 - 2024</h6>
-                    <p>"Fachinformatiker für Anwendungsentwicklung"</p>
-                </li>
-                <li>
-                    <h5>Intern - SIS-Schweriner IT- und Servicegesellschaft</h5>
-                    <h6>06/2019</h6>
-                    <p>setting up a workstation, procuring hardware <br>
-                        and maintenance of PC hardware.
-                    </p>
-                </li>
-                <li>
-                    <h5>Intern - ByteMeer IT-Service und Software-Programmierung</h5>
-                    <h6>06/2018</h6>
-                    <p>Software development in C#</p>
-                </li>
-            </ul>
-        </section>
-
-        <!-------------projects-------------------------------------->
-
-        <section id="projects">
-            <h3>Projects</h3>
-            <hr>
-            <div id="articles">
-                <ul>
-                    <li>
-                        <a href="https://westi002.itch.io/color-the-box">
-                            <img src="https://img.itch.zone/aW1hZ2UvMjg3NTg2LzE0MDczMjQucG5n/315x250%23c/lHtg%2Bj.png" alt="Projektbild">
-                        </a>
-                        <p>Color The Box</p>
-                    </li>
-                    <li>
-                        <a href="https://westi002.itch.io/rnd-number">
-                            <img src="https://img.itch.zone/aW1nLzE2NDk0NDYucG5n/105x83%23/07%2BYwO.png" alt="Projektbild">
-                        </a>
-                        <p>Rnd Number</p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Westi02/ShortcutService">
-                            <img src="img/shortcutservice.png" alt="Projektbild">
-                        </a>
-                        <p>ShortcutService</p>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="img/recipeBookIcon.png" alt="Projektbild">
-                        </a>
-                        <p>Color The Box</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-------------Social-------------------------------------->
-
-        <section id="social">
-            <h3>Social & Contact</h3>
-            <hr>
-            <div id="socialmedia">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Westi02">
-                            <img id="github_icon" src="img/github.png" alt="Github">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/florian-westphal-61707525a">
-                            <img id="linkedIn_icon" src="img/LI-In-Bug.png" alt="LinkedIn">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:mail@florianwestphal.de">
-                            <img id="mail_icon" src="img/mail.png" alt="Artikelbild">
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </section>
-
-        <!-------------Footer-------------------------------------->
-
-        <footer>
-            <p>
-                <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Freepik - Flaticon</a>
-            </p>
-        </footer>
-
-
-    </body>
+    <section>
+      <h2>Contact</h2>
+      <div class="social-links">
+        <a href="https://github.com/Westi02" target="_blank" class="social-link">
+            <img src="img/github.png" alt="GitHub Icon" class="github-icon">
+          </a>
+          <a href="https://www.linkedin.com/in/florian-westphal-61707525a/" target="_blank" class="social-link">
+            <img src="img/LI-In-Bug.png" alt="LinkedIn Icon" class="linkedin-icon">
+          </a>
+          <a href="mailto:mail@florianwestphal.de" target="_blank" class="social-link">
+            <img src="img/mail.png" alt="Email Icon" class="email-icon">
+          </a>
+      </div>
+    </section>
+  </div>
+</body>
 </html>
